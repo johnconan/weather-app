@@ -1,0 +1,18 @@
+.card-weather {
+  margin-top: '50px';
+  /* border-radius: 7px 7px 0px 0px; */
+  cursor: pointer;
+  transition: .2s all;
+  box-shadow: 0 10px 40px 10px rgba(0, 0, 0, .4);
+  position: relative;
+}
+
+.card-weather__image {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-weather:hover {
+  box-shadow: 0 10px 70px 10px rgba(0, 0, 0, .4);
+}
